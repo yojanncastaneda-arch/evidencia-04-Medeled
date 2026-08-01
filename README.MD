@@ -4,7 +4,6 @@ Aprendiz:
 Cindy Vaneza Pineda Galeano
 Ana María Zuluaga Marín
 Yojann Esleider Castañeda Rodríguez
-Eyder Jessyd Pianda Armero
 Juan Santiago Becerra Velasco
 
 SENA - Análisis y Desarrollo de Software.
