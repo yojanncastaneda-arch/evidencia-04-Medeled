@@ -1,0 +1,1 @@
+SELECT * FROM medeled_cmr.cliente;
