@@ -6,9 +6,9 @@ import java.sql.SQLException;
 
 public class Conexion {
 
-    private static final String URL = "jdbc:mysql://localhost:3306/medeled_cmr";
-    private static final String USUARIO = "root";
-    private static final String CONTRASENA = "Medeled";
+    private static final String URL = System.getenv().getOrDefault("MEDELED_DB_URL", "jdbc:mysql://localhost:3306/medeled_cmr");
+    private static final String USUARIO = System.getenv().getOrDefault("MEDELED_DB_USER", "root");
+    private static final String CONTRASENA = System.getenv().getOrDefault("MEDELED_DB_PASSWORD", "");
 
     public static Connection conectar() {
         Connection con = null;
